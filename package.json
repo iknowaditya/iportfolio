@@ -1,0 +1,38 @@
+{
+  "name": "iportfolio",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "node build.js",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@emailjs/browser": "^3.10.0",
+    "@fontsource/poppins": "^4.5.10",
+    "@react-three/drei": "^9.58.3",
+    "@react-three/fiber": "^8.12.0",
+    "framer-motion": "^10.8.5",
+    "jspdf": "^2.5.1",
+    "maath": "^0.5.3",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-parallax-tilt": "^1.7.119",
+    "react-router-dom": "^6.9.0",
+    "react-three-fiber": "^6.0.13",
+    "react-tilt": "^1.0.1",
+    "react-vertical-timeline-component": "^3.6.0",
+    "tailwind-scrollbar-hide": "^1.1.7",
+    "three": "^0.150.1"
+  },
+  "devDependencies": {
+    "@types/react": "^18.0.28",
+    "@types/react-dom": "^18.0.11",
+    "@vitejs/plugin-react": "^3.1.0",
+    "autoprefixer": "^10.4.14",
+    "postcss": "^8.4.21",
+    "tailwindcss": "^3.2.7",
+    "vite": "^4.2.0"
+  }
+}
